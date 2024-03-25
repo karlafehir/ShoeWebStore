@@ -1,7 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using ShoeWebStore.DataAccess.Data;
+using ShoeWebStore.DataAccess.Repository;
+using ShoeWebStore.DataAccess.Repository.IRepository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Add Repository services
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 
