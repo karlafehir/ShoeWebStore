@@ -56,7 +56,7 @@ public class CategoryController : Controller
         {
             return NotFound();
         }
-        
+
         return View(category);
     }
 
@@ -70,7 +70,40 @@ public class CategoryController : Controller
             TempData["success"] = "Category updated successfully!";
             return RedirectToAction("Index", "Category");
         }
-        
+
         return View();
+    }
+
+    public IActionResult Delete(int? categoryId)
+    {
+        if (categoryId == null || categoryId == 0)
+        {
+            return NotFound();
+        }
+
+        Category? category = _unitOfWork.Category.Get(c => c.Id == categoryId); 
+        
+        if (category == null)
+        {
+            return NotFound();
+        }
+
+        return View(category);
+    }
+
+    [HttpPost, ActionName("Delete")]
+    public IActionResult DeletePOST(int? categoryId)
+    {
+        Category? category = _unitOfWork.Category.Get(c => c.Id == categoryId);
+        
+        if (category == null)
+        {
+            return NotFound();
+        }
+        
+        _unitOfWork.Category.Delete(category);
+        _unitOfWork.Save();
+        TempData["success"] = "Category deleted successfully!";
+        return RedirectToAction("Index", "Category");
     }
 }
