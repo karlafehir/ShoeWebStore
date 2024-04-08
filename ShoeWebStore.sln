@@ -1,12 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoeWebStore", "ShoeWebStore\ShoeWebStore.csproj", "{B8540137-A513-4464-9DF2-05ED392D88F3}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoeWebStore", "ShoeWebStore\ShoeWebStore.csproj", "{B8540137-A513-4464-9DF2-05ED392D88F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoeWebStore.Models", "ShoeWebStore.Models\ShoeWebStore.Models.csproj", "{BA51697D-B9C0-4043-BB52-555E6772BA0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoeWebStore.Models", "ShoeWebStore.Models\ShoeWebStore.Models.csproj", "{BA51697D-B9C0-4043-BB52-555E6772BA0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoeWebStore.DataAccess", "ShoeWebStore.DataAccess\ShoeWebStore.DataAccess.csproj", "{01736A77-E8C9-433F-BE83-67FC0266C59F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoeWebStore.DataAccess", "ShoeWebStore.DataAccess\ShoeWebStore.DataAccess.csproj", "{01736A77-E8C9-433F-BE83-67FC0266C59F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoeWebStore.Utility", "ShoeWebStore.Utility\ShoeWebStore.Utility.csproj", "{8381309B-26E9-48B8-9611-CC420139E0A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoeWebStore.Utility", "ShoeWebStore.Utility\ShoeWebStore.Utility.csproj", "{8381309B-26E9-48B8-9611-CC420139E0A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +33,8 @@ Global
 		{8381309B-26E9-48B8-9611-CC420139E0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8381309B-26E9-48B8-9611-CC420139E0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8381309B-26E9-48B8-9611-CC420139E0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
