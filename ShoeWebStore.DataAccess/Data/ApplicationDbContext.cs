@@ -1,3 +1,4 @@
+using System.Drawing;
 using Microsoft.EntityFrameworkCore;
 using ShoeWebStore.Models.Models;
 
@@ -9,6 +10,7 @@ public class ApplicationDbContext : DbContext
     {}
 
     public DbSet<Category> Categories { get; set; }
+    public DbSet<Product> Products { get; set; }
     public DbSet<Company> Companies { get; set; }
 
 }
