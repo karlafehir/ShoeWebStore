@@ -4,8 +4,8 @@ using ShoeWebStore.DataAccess.Repository.IRepository;
 using ShoeWebStore.Models;
 using ShoeWebStore.Models.Models;
 
-namespace ShoeWebStore.Controllers;
-
+namespace ShoeWebStore.Areas.Customer.Controllers;
+[Area("Customer")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

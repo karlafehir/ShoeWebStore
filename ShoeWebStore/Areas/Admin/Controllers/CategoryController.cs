@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using ShoeWebStore.DataAccess.Repository.IRepository;
 using ShoeWebStore.Models.Models;
 
-namespace ShoeWebStore.Controllers;
-
+namespace ShoeWebStore.Areas.Admin.Controllers;
+[Area("Admin")]
 public class CategoryController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;

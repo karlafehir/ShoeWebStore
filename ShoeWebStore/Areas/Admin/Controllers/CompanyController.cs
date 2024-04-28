@@ -2,8 +2,8 @@
 using ShoeWebStore.DataAccess.Repository.IRepository;
 using ShoeWebStore.Models.Models;
 
-namespace ShoeWebStore.Controllers;
-
+namespace ShoeWebStore.Areas.Admin.Controllers;
+[Area("Admin")]
 public class CompanyController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
