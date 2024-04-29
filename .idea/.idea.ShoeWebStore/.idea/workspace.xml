@@ -8,9 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="Added inputs to register screen">
+    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="Added shoppingCart and applicationUser repository">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/IRepository/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/IRepository/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore.Models/Models/ApplicationUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore.Models/Models/ApplicationUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +39,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore.DataAccess/Repository/IRepository/IUnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/IRepository/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore.DataAccess/Repository/IRepository/IUnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore.DataAccess/Repository/UnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.Models/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.Models/ViewModels/ProductViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,7 +73,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.ShoeWebStore: http.executor": "Debug",
+    ".NET Launch Settings Profile.ShoeWebStore: http.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "XThreadsFramesViewSplitterKey": "0.43307087",
@@ -141,7 +147,7 @@
       <workItem from="1712736108372" duration="61000" />
       <workItem from="1713100181927" duration="6471000" />
       <workItem from="1714310867058" duration="4417000" />
-      <workItem from="1714378335885" duration="6863000" />
+      <workItem from="1714378335885" duration="7573000" />
     </task>
     <task id="LOCAL-00001" summary="Added db connection, repository, unitOfWork, category screen">
       <option name="closed" value="true" />
@@ -247,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714398896348</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added shoppingCart and applicationUser repository">
+      <option name="closed" value="true" />
+      <created>1714399711707</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714399711707</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +294,8 @@
     <MESSAGE value="Added Roles to register &amp; EmailSender" />
     <MESSAGE value="Added Admin access to pages" />
     <MESSAGE value="Added inputs to register screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added inputs to register screen" />
+    <MESSAGE value="Added shoppingCart and applicationUser repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added shoppingCart and applicationUser repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
