@@ -8,12 +8,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="Added Areas (Admin &amp; Customer)">
+    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore.DataAccess/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore.DataAccess/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore.DataAccess/ShoeWebStore.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore.DataAccess/ShoeWebStore.DataAccess.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Customer/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Customer/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/ScaffoldingReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/ScaffoldingReadMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShoeWebStore/ShoeWebStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/ShoeWebStore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore.DataAccess/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/IRepository/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/Repository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -141,7 +143,8 @@
       <workItem from="1712734507762" duration="1509000" />
       <workItem from="1712736108372" duration="61000" />
       <workItem from="1713100181927" duration="6471000" />
-      <workItem from="1714310867058" duration="2873000" />
+      <workItem from="1714310867058" duration="4417000" />
+      <workItem from="1714378335885" duration="2715000" />
     </task>
     <task id="LOCAL-00001" summary="Added db connection, repository, unitOfWork, category screen">
       <option name="closed" value="true" />
@@ -207,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714312465567</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added ApplicationUser and ShoppingCart">
+      <option name="closed" value="true" />
+      <created>1714314705643</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714314705643</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +235,8 @@
     <MESSAGE value="Added product (get, upsert, delete) - without imageUrl" />
     <MESSAGE value="Added product details page, show products on home page" />
     <MESSAGE value="Added Areas (Admin &amp; Customer)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Areas (Admin &amp; Customer)" />
+    <MESSAGE value="Added ApplicationUser and ShoppingCart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ApplicationUser and ShoppingCart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,14 +244,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/CategoryController.cs</url>
           <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/ShoeWebStore/Controllers/CategoryController.cs" initialLine="28" containingFunctionPresentation="Method 'Create'">
-            <startOffsets>
-              <option value="679" />
-            </startOffsets>
-            <endOffsets>
-              <option value="680" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ShoeWebStore/Controllers/CategoryController.cs" initialLine="28" containingFunctionPresentation="Method 'Create'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
