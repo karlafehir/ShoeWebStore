@@ -8,13 +8,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="">
+    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="Added Identity">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore.Utility/ShoeWebStore.Utility.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore.Utility/ShoeWebStore.Utility.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShoeWebStore/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore/ScaffoldingReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/ScaffoldingReadMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShoeWebStore/ShoeWebStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/ShoeWebStore.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,6 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore.DataAccess/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Migrations/ApplicationDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/IRepository/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.DataAccess/Repository/Repository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,7 +46,6 @@
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.Models/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore.Models/ViewModels/ProductViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6944caef51964961b37f49507d2b53dfd82000/69/a7d4271b/SafeFileHandle.cs" root0="SKIP_HIGHLIGHTING" />
@@ -144,7 +142,7 @@
       <workItem from="1712736108372" duration="61000" />
       <workItem from="1713100181927" duration="6471000" />
       <workItem from="1714310867058" duration="4417000" />
-      <workItem from="1714378335885" duration="2715000" />
+      <workItem from="1714378335885" duration="4040000" />
     </task>
     <task id="LOCAL-00001" summary="Added db connection, repository, unitOfWork, category screen">
       <option name="closed" value="true" />
@@ -218,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714314705643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Identity">
+      <option name="closed" value="true" />
+      <created>1714381309955</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714381309955</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +242,8 @@
     <MESSAGE value="Added product details page, show products on home page" />
     <MESSAGE value="Added Areas (Admin &amp; Customer)" />
     <MESSAGE value="Added ApplicationUser and ShoppingCart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ApplicationUser and ShoppingCart" />
+    <MESSAGE value="Added Identity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Identity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
