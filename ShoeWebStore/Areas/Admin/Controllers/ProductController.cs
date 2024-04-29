@@ -1,12 +1,15 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShoeWebStore.DataAccess.Data;
 using ShoeWebStore.DataAccess.Repository.IRepository;
 using ShoeWebStore.Models.Models;
 using ShoeWebStore.Models.ViewModels;
+using ShoeWebStore.Utility;
 
 namespace ShoeWebStore.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = Role.Role_Admin)]
 public class ProductController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;

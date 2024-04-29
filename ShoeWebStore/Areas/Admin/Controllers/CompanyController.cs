@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ShoeWebStore.DataAccess.Repository.IRepository;
 using ShoeWebStore.Models.Models;
+using ShoeWebStore.Utility;
 
 namespace ShoeWebStore.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = Role.Role_Admin)]
 public class CompanyController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
