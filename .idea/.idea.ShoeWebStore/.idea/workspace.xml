@@ -8,10 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="Added Roles to register &amp; EmailSender">
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/CompanyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/CompanyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
+    <list default="true" id="0a95d42f-2099-46f2-84a2-94ad19d687b0" name="Changes" comment="Added Admin access to pages">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShoeWebStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/ShoeWebStore/Areas/Admin/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/karlafehir/Desktop/C-Edu/ShoeWebStore/ShoeWebStore/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShoeWebStore/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6944caef51964961b37f49507d2b53dfd82000/69/a7d4271b/SafeFileHandle.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -64,29 +65,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.ShoeWebStore: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.43307087&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.ShoeWebStore: http.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "XThreadsFramesViewSplitterKey": "0.43307087",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "HotReloadSettingsPage",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/karlafehir/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/karlafehir/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/karlafehir/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/karlafehir/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/karlafehir/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/karlafehir/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ShoeWebStore: http">
     <configuration name="ShoeWebStore: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ShoeWebStore/ShoeWebStore.csproj" />
@@ -140,7 +141,7 @@
       <workItem from="1712736108372" duration="61000" />
       <workItem from="1713100181927" duration="6471000" />
       <workItem from="1714310867058" duration="4417000" />
-      <workItem from="1714378335885" duration="4869000" />
+      <workItem from="1714378335885" duration="6086000" />
     </task>
     <task id="LOCAL-00001" summary="Added db connection, repository, unitOfWork, category screen">
       <option name="closed" value="true" />
@@ -230,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714382790996</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Admin access to pages">
+      <option name="closed" value="true" />
+      <created>1714383651111</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714383651111</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +259,8 @@
     <MESSAGE value="Added ApplicationUser and ShoppingCart" />
     <MESSAGE value="Added Identity" />
     <MESSAGE value="Added Roles to register &amp; EmailSender" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Roles to register &amp; EmailSender" />
+    <MESSAGE value="Added Admin access to pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Admin access to pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,6 +270,19 @@
           <line>31</line>
           <properties documentPath="$PROJECT_DIR$/ShoeWebStore/Controllers/CategoryController.cs" initialLine="28" containingFunctionPresentation="Method 'Create'" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs</url>
+          <line>177</line>
+          <properties documentPath="$PROJECT_DIR$/ShoeWebStore/Areas/Identity/Pages/Account/Register.cshtml.cs" initialLine="177" containingFunctionPresentation="Method 'OnPostAsync'">
+            <startOffsets>
+              <option value="7515" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7581" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

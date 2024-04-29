@@ -108,6 +108,30 @@ namespace ShoeWebStore.Areas.Identity.Pages.Account
             public string? Role { get; set; }
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; }
+            
+            [Required]
+            [Display(Name = "Name")]
+            public string Name { get; set; }
+            
+            [Required]
+            [Display(Name = "State")]
+            public string State { get; set; }
+
+            [Required]
+            [Display(Name = "StreetAddress")]
+            public string StreetAddress { get; set; }
+
+            [Required]
+            [Display(Name = "City")]
+            public string City { get; set; }
+
+            [Required]
+            [Display(Name = "PostalCode")]
+            public int PostalCode { get; set; }
+
+            [Required]
+            [Display(Name = "PhoneNumber")]
+            public string PhoneNumber { get; set; }
         }
 
 
@@ -146,6 +170,11 @@ namespace ShoeWebStore.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                user.State = Input.State;
+                user.StreetAddress = Input.StreetAddress;
+                user.City = Input.City;
+                user.PostalCode = Input.PostalCode;
+                user.PhoneNumber = Input.PhoneNumber;
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
